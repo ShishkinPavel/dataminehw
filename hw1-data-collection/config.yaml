@@ -1,0 +1,14 @@
+sources:
+  - type: hf_dataset
+    name: imdb
+    split: train
+    sample_size: 1000
+
+  - type: scrape
+    url: "https://quotes.toscrape.com/"
+    selector: "div.quote span.text"
+    label: "quote"
+    source_name: "scrape_quotes"
+
+output:
+  path: data/raw/dataset.csv

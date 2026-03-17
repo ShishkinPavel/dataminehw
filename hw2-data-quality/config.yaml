@@ -1,0 +1,13 @@
+default_strategy:
+  missing: median
+  duplicates: drop
+  outliers: clip_iqr
+
+target_column: label
+
+input:
+  path: data/raw/dataset.csv
+
+output:
+  clean_path: data/clean/dataset_clean.csv
+  report_path: reports/quality_report.md

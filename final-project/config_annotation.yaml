@@ -1,19 +1,15 @@
-modality: text
-
 auto_label:
-  model: "facebook/bart-large-mnli"
-  candidate_labels:
-    - positive
-    - negative
   batch_size: 16
-
+  candidate_labels:
+  - positive
+  - negative
+  model: facebook/bart-large-mnli
+modality: text
+paths:
+  export: final-project/export/labelstudio_import.json
+  labeled: final-project/data/labeled/dataset_labeled.csv
+  low_confidence: final-project/review_queue.csv
+  report: final-project/reports/annotation_report.md
+  spec: final-project/specs/annotation_spec.md
 quality:
   confidence_threshold: 0.7
-
-paths:
-  raw: data/raw/dataset.csv
-  labeled: data/labeled/dataset_labeled.csv
-  spec: specs/annotation_spec.md
-  export: export/labelstudio_import.json
-  report: reports/quality_report.md
-  low_confidence: data/low_confidence/flagged_for_review.csv

@@ -45,6 +45,15 @@ argument-hint: "[тема датасета или пожелания]"
 4. Метрики качества на каждом этапе + итоговые метрики модели
 5. Ретроспектива
 
+Сгенерируй `final-project/data/labeled/data_card.md` с секциями:
+- Overview (total, labels, sources, games)
+- Label Distribution
+- Language (English + возможные другие языки)
+- Temporal Range (когда собраны данные)
+- Known Biases (positive-skewed из-за Steam thumbs-up, BART annotation errors)
+- Pipeline (этапы обработки)
+- Limitations
+
 ## Правила
 
 - Между шагами показывай пользователю прогресс (что сделано, что дальше)

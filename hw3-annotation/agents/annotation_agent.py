@@ -65,6 +65,10 @@ class AnnotationAgent:
         result = df.copy()
         classifier = self._get_classifier()
 
+        # Truncate long texts — BART tokenizer limit is 1024 tokens,
+        # but very long reviews degrade classification quality.
+        max_chars = self._config.get('auto_label', {}).get('max_text_chars', 512)
+
         texts = result['text'].tolist()
         predicted_labels = []
         confidences = []
@@ -79,7 +83,8 @@ class AnnotationAgent:
                     predicted_labels.append('unknown')
                     confidences.append(0.0)
                 else:
-                    clean_batch.append(str(text))
+                    truncated = str(text)[:max_chars]
+                    clean_batch.append(truncated)
                     batch_indices.append(i + j)
 
             if clean_batch:

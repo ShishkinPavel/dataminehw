@@ -16,7 +16,9 @@ argument-hint: "[стратегии: entropy,random,margin]"
 1. Импортируй `ActiveLearningAgent` из `hw4-active-learning/agents/al_agent.py`
 2. Загрузи размеченные данные из `final-project/data/labeled/dataset_labeled.csv`
 3. Раздели на labeled (50), pool, test
-4. Запусти AL-циклы для стратегий (по умолчанию: entropy, random)
+4. Запусти AL-циклы для стратегий (по умолчанию: entropy, random, least_confidence)
+   ВАЖНО: entropy и margin дают идентичные результаты при 2 классах (математически эквивалентны).
+   Используй least_confidence вместо margin как третью стратегию по умолчанию.
 5. Сгенерируй графики: `agent.report()`, `agent.compare_strategies()`
 6. Сохрани результаты в `final-project/data/results/al_histories.json`
 7. Сохрани отчёт в `final-project/reports/al_report.md`

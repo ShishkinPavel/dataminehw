@@ -74,13 +74,21 @@ class ActiveLearningAgent:
             logger.error(f"Error during fit: {e}")
             raise
 
-    def query(self, pool_df: pd.DataFrame, strategy: str = 'entropy', batch_size: int = 20) -> list[int]:
+    def query(
+        self,
+        pool_df: pd.DataFrame,
+        strategy: str = 'entropy',
+        batch_size: int = 20,
+        iteration: int = 0,
+    ) -> list[int]:
         """Select the most informative examples from the pool.
 
         Args:
             pool_df: DataFrame with 'text' column (unlabeled pool).
-            strategy: Selection strategy - 'entropy', 'margin', or 'random'.
+            strategy: Selection strategy - 'entropy', 'least_confidence',
+                      'margin', or 'random'.
             batch_size: Number of examples to select.
+            iteration: Current AL iteration (used as seed offset for random).
 
         Returns:
             List of indices (positions in pool_df).
@@ -94,17 +102,24 @@ class ActiveLearningAgent:
             proba = self.pipeline.predict_proba(pool_df['text'])
             entropy = -np.sum(proba * np.log(proba + 1e-10), axis=1)
             indices = np.argsort(entropy)[-batch_size:].tolist()
+        elif strategy == 'least_confidence':
+            proba = self.pipeline.predict_proba(pool_df['text'])
+            max_proba = np.max(proba, axis=1)
+            indices = np.argsort(max_proba)[:batch_size].tolist()
         elif strategy == 'margin':
             proba = self.pipeline.predict_proba(pool_df['text'])
             sorted_proba = np.sort(proba, axis=1)
             margin = sorted_proba[:, -1] - sorted_proba[:, -2]
             indices = np.argsort(margin)[:batch_size].tolist()
         elif strategy == 'random':
-            indices = np.random.RandomState(42).choice(
+            indices = np.random.RandomState(42 + iteration).choice(
                 len(pool_df), size=batch_size, replace=False
             ).tolist()
         else:
-            raise ValueError(f"Unknown strategy: {strategy}. Use 'entropy', 'margin', or 'random'.")
+            raise ValueError(
+                f"Unknown strategy: {strategy}. "
+                "Use 'entropy', 'least_confidence', 'margin', or 'random'."
+            )
 
         logger.info(f"Queried {batch_size} examples using '{strategy}' strategy")
         return indices
@@ -176,7 +191,7 @@ class ActiveLearningAgent:
             )
 
             if i < n_iterations and len(current_pool) >= batch_size:
-                indices = self.query(current_pool, strategy=strategy, batch_size=batch_size)
+                indices = self.query(current_pool, strategy=strategy, batch_size=batch_size, iteration=i)
                 selected = current_pool.iloc[indices]
                 current_labeled = pd.concat([current_labeled, selected], ignore_index=True)
                 current_pool = current_pool.drop(current_pool.index[indices]).reset_index(drop=True)
@@ -231,7 +246,7 @@ class ActiveLearningAgent:
         """
         os.makedirs(output_dir, exist_ok=True)
         fig, axes = plt.subplots(1, 2, figsize=(14, 5))
-        colors = {'entropy': 'tab:blue', 'margin': 'tab:orange', 'random': 'tab:gray'}
+        colors = {'entropy': 'tab:blue', 'least_confidence': 'tab:green', 'margin': 'tab:orange', 'random': 'tab:gray'}
 
         for name, history in histories.items():
             df_h = pd.DataFrame(history)

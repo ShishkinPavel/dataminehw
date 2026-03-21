@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+.env
+venv
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (large binary)
+*.joblib
+
+# Generated data and reports
+*.csv
+!*/.gitkeep
+
+# Generated plots
+*.png
+
+# Claude Code
+.claude/settings.local.json

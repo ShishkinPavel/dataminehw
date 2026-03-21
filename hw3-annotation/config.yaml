@@ -1,0 +1,19 @@
+modality: text
+
+auto_label:
+  model: "facebook/bart-large-mnli"
+  candidate_labels:
+    - positive
+    - negative
+  batch_size: 16
+
+quality:
+  confidence_threshold: 0.7
+
+paths:
+  raw: data/raw/dataset.csv
+  labeled: data/labeled/dataset_labeled.csv
+  spec: specs/annotation_spec.md
+  export: export/labelstudio_import.json
+  report: reports/quality_report.md
+  low_confidence: data/low_confidence/flagged_for_review.csv

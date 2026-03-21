@@ -5,8 +5,8 @@
 
 ## Задача ML
 
-Sentiment analysis — анализ тональности текстов.
-Агент собирает данные из разных источников (датасеты, web scraping, API),
+Sentiment analysis — анализ тональности отзывов на инди-игры Steam.
+Агент собирает данные из разных источников (HuggingFace датасет, Steam Reviews API),
 приводит их к единой схеме и сохраняет готовый датасет для дальнейшего обучения модели.
 
 ## Архитектура агента
@@ -15,10 +15,13 @@ Sentiment analysis — анализ тональности текстов.
 DataCollectionAgent
 │
 ├── run(sources) ─────────── основной метод
-│   ├── _load_dataset()      HuggingFace / Kaggle
+│   ├── _load_dataset()      HuggingFace (ksang/steamreviews)
+│   ├── _fetch_steam_reviews() Steam Reviews API по тегу
 │   ├── _scrape()            Web scraping (requests + BS4)
 │   ├── _fetch_api()         REST API
 │   └── _merge()             Объединение + унификация схемы
+│
+├── get_games_by_tag(tag)    Поиск инди-игр через SteamSpy API
 │
 └── config.yaml ─────────── конфигурация источников и выхода
 ```
@@ -27,27 +30,27 @@ DataCollectionAgent
 
 ## Источники данных
 
-| # | Тип | Источник | Описание | Кол-во |
-|---|-----|----------|----------|--------|
-| 1 | HuggingFace | imdb | Отзывы на фильмы (pos/neg) | 1000 |
-| 2 | Web scraping | quotes.toscrape.com | Цитаты известных людей | 10 |
+| # | Тип | Источник | Описание |
+|---|-----|----------|----------|
+| 1 | HuggingFace | ksang/steamreviews | 6M+ отзывов Steam, берём сэмпл |
+| 2 | Steam Reviews API | store.steampowered.com | Отзывы на топ инди-игр по выбранному тегу |
 
-Итого: **1010 записей** из 2 источников.
+Теги для фильтрации: Indie, Horror, Roguelike, Puzzle, Platformer, RPG, Strategy и др.
+Фильтрация AAA-игр через SteamSpy (< 10M владельцев).
 
 ## Схема выходных данных
 
 | Колонка | Тип | Описание |
 |---------|-----|----------|
-| text | str | Текстовое содержимое |
-| label | str | Метка класса (positive/negative/quote) |
-| source | str | Идентификатор источника (hf_imdb / scrape_quotes) |
+| text | str | Текст отзыва |
+| label | str | Метка класса (positive/negative) |
+| source | str | Идентификатор источника (hf_ksang/steamreviews / steam_{appid}) |
 | collected_at | datetime | Таймстемп сбора данных (UTC) |
 
 ## Быстрый старт
 
 ### Установка
 ```bash
-git clone <repo-url>
 cd hw1-data-collection
 pip install -r requirements.txt
 ```
@@ -75,9 +78,12 @@ df = agent.run()
 
 # Явный список источников
 df = agent.run(sources=[
-    {'type': 'hf_dataset', 'name': 'imdb', 'sample_size': 500},
-    {'type': 'scrape', 'url': 'https://quotes.toscrape.com/', 'selector': 'div.quote span.text'},
+    {'type': 'hf_dataset', 'name': 'ksang/steamreviews', 'split': 'train', 'sample_size': 500},
+    {'type': 'steam_reviews', 'tag': 'Puzzle', 'top_n': 5, 'reviews_per_game': 100},
 ])
+
+# Поиск игр по тегу
+games = DataCollectionAgent.get_games_by_tag('Horror', top_n=10)
 ```
 
 ## EDA

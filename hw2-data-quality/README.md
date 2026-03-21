@@ -5,7 +5,7 @@
 
 ## Задача ML
 
-Sentiment analysis. Агент работает поверх датасета из HW1 (IMDB reviews + scraped quotes)
+Sentiment analysis отзывов на инди-игры Steam. Агент работает поверх датасета из HW1
 и обеспечивает качество данных перед обучением модели.
 
 ## Архитектура агента
@@ -26,7 +26,7 @@ DataQualityAgent
 │
 ├── compare(before, after)         → pd.DataFrame (метрики)
 │
-└── llm_recommend(report, task)    → str (бонус: Claude API)
+└── llm_recommend(report, task)    → str (бонус: YandexGPT API)
 ```
 
 ## Три части задания
@@ -67,25 +67,9 @@ comparison = agent.compare(df, df_clean)
 
 ## Результаты
 
-### Quality Report (до/после)
+Генерируются при запуске `python main.py`, сохраняются в `reports/quality_report.md`.
 
-**Strategy A: median + clip_iqr (рекомендуемая)**
-
-| metric | before | after | change |
-|---|---|---|---|
-| total_rows | 1040 | 1010 | -30 |
-| missing_values | 80 | 0 | -80 |
-| duplicates | 30 | 0 | -30 |
-| outliers_iqr | 97 | 0 | -97 |
-
-**Strategy B: drop + clip_zscore**
-
-| metric | before | after | change |
-|---|---|---|---|
-| total_rows | 1040 | 932 | -108 |
-| missing_values | 80 | 0 | -80 |
-| duplicates | 30 | 0 | -30 |
-| outliers_iqr | 97 | 92 | -5 |
+Метод `compare()` выводит таблицу до/после по метрикам: total_rows, missing_values, duplicates, outliers_iqr, label_imbalance_ratio.
 
 ## Бонус: LLM-скилл (+2 балла)
 

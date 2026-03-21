@@ -1,0 +1,178 @@
+{
+  "entropy": [
+    {
+      "iteration": 0,
+      "n_labeled": 50,
+      "accuracy": 0.6768,
+      "f1": 0.5713,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 1,
+      "n_labeled": 70,
+      "accuracy": 0.6692,
+      "f1": 0.6328,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 2,
+      "n_labeled": 90,
+      "accuracy": 0.6768,
+      "f1": 0.6412,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 3,
+      "n_labeled": 110,
+      "accuracy": 0.6996,
+      "f1": 0.6554,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 4,
+      "n_labeled": 130,
+      "accuracy": 0.6806,
+      "f1": 0.6518,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 5,
+      "n_labeled": 150,
+      "accuracy": 0.7148,
+      "f1": 0.6834,
+      "strategy": "entropy"
+    }
+  ],
+  "random": [
+    {
+      "iteration": 0,
+      "n_labeled": 50,
+      "accuracy": 0.6768,
+      "f1": 0.5713,
+      "strategy": "random"
+    },
+    {
+      "iteration": 1,
+      "n_labeled": 70,
+      "accuracy": 0.6768,
+      "f1": 0.611,
+      "strategy": "random"
+    },
+    {
+      "iteration": 2,
+      "n_labeled": 90,
+      "accuracy": 0.6844,
+      "f1": 0.6411,
+      "strategy": "random"
+    },
+    {
+      "iteration": 3,
+      "n_labeled": 110,
+      "accuracy": 0.6882,
+      "f1": 0.6304,
+      "strategy": "random"
+    },
+    {
+      "iteration": 4,
+      "n_labeled": 130,
+      "accuracy": 0.7034,
+      "f1": 0.6583,
+      "strategy": "random"
+    },
+    {
+      "iteration": 5,
+      "n_labeled": 150,
+      "accuracy": 0.7034,
+      "f1": 0.6669,
+      "strategy": "random"
+    }
+  ],
+  "margin": [
+    {
+      "iteration": 0,
+      "n_labeled": 50,
+      "accuracy": 0.6768,
+      "f1": 0.5713,
+      "strategy": "margin"
+    },
+    {
+      "iteration": 1,
+      "n_labeled": 70,
+      "accuracy": 0.6692,
+      "f1": 0.6328,
+      "strategy": "margin"
+    },
+    {
+      "iteration": 2,
+      "n_labeled": 90,
+      "accuracy": 0.6768,
+      "f1": 0.6412,
+      "strategy": "margin"
+    },
+    {
+      "iteration": 3,
+      "n_labeled": 110,
+      "accuracy": 0.6996,
+      "f1": 0.6554,
+      "strategy": "margin"
+    },
+    {
+      "iteration": 4,
+      "n_labeled": 130,
+      "accuracy": 0.6806,
+      "f1": 0.6518,
+      "strategy": "margin"
+    },
+    {
+      "iteration": 5,
+      "n_labeled": 150,
+      "accuracy": 0.7148,
+      "f1": 0.6834,
+      "strategy": "margin"
+    }
+  ],
+  "least_confidence": [
+    {
+      "iteration": 0,
+      "n_labeled": 50,
+      "accuracy": 0.6768,
+      "f1": 0.5713,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 1,
+      "n_labeled": 70,
+      "accuracy": 0.6692,
+      "f1": 0.6328,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 2,
+      "n_labeled": 90,
+      "accuracy": 0.6768,
+      "f1": 0.6412,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 3,
+      "n_labeled": 110,
+      "accuracy": 0.6996,
+      "f1": 0.6554,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 4,
+      "n_labeled": 130,
+      "accuracy": 0.6806,
+      "f1": 0.6518,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 5,
+      "n_labeled": 150,
+      "accuracy": 0.7148,
+      "f1": 0.6834,
+      "strategy": "least_confidence"
+    }
+  ]
+}

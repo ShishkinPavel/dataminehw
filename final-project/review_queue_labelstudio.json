@@ -1,0 +1,3958 @@
+[
+  {
+    "data": {
+      "text": "i love"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "unknown"
+              ]
+            }
+          }
+        ],
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "love the game, hate ♥♥♥♥ off barbarian. 9/10"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Every decision you make will affect gameplay."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5001
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Interesting little experience, only about five minutes long. You, too, can experience the wonder and sadness of being a fly at no cost to you."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5005
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I have a lot of hours on this game. Has it ruined my life? No. I just left my computer on for a few days and didn't use it."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5021
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "addicting"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5023
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It took years to get the Steam achievements. In that time, I went through a breakup, getting another relationship, losing that one, years of isolation, helping a handful of people I treasured, completing many DnD campaigns of my own creation, and even became a dedicated disciple of Abyssal Enlightenment and an Acolyte of Time.\nThis game quickly went from \"I'll be done in a year, tops\" to \"Maybe I'll somehow finish it someday.\"\nIt was an undertaking and a half. I do not regret my time with it on the side, augmenting my whatever. But now that I am free, I will never touch another clicker/idler game again. Thank you for the time. Genuinely. But I will never be back.\nI. \nAM. \nFREE!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5027
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I had a run where if I drew any status card, I would deal damage to all enemies and draw two extra cards. At the beginning of every turn I played a card that gave me block in exchange for two wound status cards, and then put one of those wounds on top of my draw pile in order to start a chain reaction.\r\n\r\nI would draw the wound card, deal damage, draw two extra cards because of the wound, and then eventually one of those two extra cards would almost always be another wound, and so the cycle would repeat. It felt like starting a lawnmower. That was my favorite run. It was perfect."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5032
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "My friend forced me to review this game. I like it, it crashes my PC. Thank you, that is all."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5055
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Nice game but it ate my memory."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5062
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Настоящий классический детектив"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5064
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "This game is one of the BEST free games available on steam. If you love working with others to survive or complete an objective then this is definitely the game for you. Sometimes people troll, are rude, don't cooperate, or try to kill you but those people are easily avoidable/ignorable. This is a great game for people who want something that they can continue to play and have fun with even after earning the achievements (unlike L4D). I'm a HUGE HUGE HUGE Walking Dead fan and one of the reasons that i love this game so much is because there are Walking Dead maps! Seriously a great game!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5069
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "⣿⣿⡻⠿⣳⠸⢿⡇⢇⣿⡧⢹⠿⣿⣿⣿⣿⣾⣿⡇⣿⣿⣿⣿⡿⡐⣯⠁ ⠄⠄\n⠟⣛⣽⡳⠼⠄⠈⣷⡾⣥⣱⠃⠣⣿⣿⣿⣯⣭⠽⡇⣿⣿⣿⣿⣟⢢⠏⠄ ⠄\n⢠⡿⠶⣮⣝⣿⠄⠄⠈⡥⢭⣥⠅⢌⣽⣿⣻⢶⣭⡿⠿⠜⢿⣿⣿⡿⠁⠄⠄\n⠄⣼⣧⠤⢌⣭⡇⠄⠄⠄⠭⠭⠭⠯⠴⣚⣉⣛⡢⠭⠵⢶⣾⣦⡍⠁⠄⠄⠄⠄\n⠄⣿⣷⣯⣭⡷⠄⠄⢀⣀⠩⠍⢉⣛⣛⠫⢏⣈⣭⣥⣶⣶⣦⣭⣛⠄⠄⠄⠄⠄\n⢀⣿⣿⣿⡿⠃⢀⣴⣿⣿⣿⣎⢩⠌⣡⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠄⠄⠄\n⢸⡿⢟⣽⠎⣰⣿⣿⣿⣿⣿⣿⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠄⠄\n⣰⠯⣾⢅⣼⣿⣿⣿⣿⣿⣿⡇⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠄\n⢰⣄⡉⣼⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠄\n⢯⣌⢹⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄\n⢸⣇⣽⣿⣿⣿⣿⣿⣿⣿⣿⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄\n⢸⣟⣧⡻⣿⣿⣿⣿⣿⣿⣿⣧⡻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄\n⠈⢹⡧⣿⣸⠿⢿⣿⣿⣿⣿⡿⠗⣈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠄\n⠄⠘⢷⡳⣾⣷⣶⣶⣶⣶⣶⣾⣿⣿⢀⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠄\n⠄⠄⠈⣵⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄\n⠄⠄⠄⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠄⠄"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5094
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I like how you can build what every you want. I don't like how people with lengendary wepons can face people with beginner level stuff"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5094
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "gud gaem"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5096
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It's ok for a tab-target space MMO. Fairly gorgeous with some very interesting mechanics. Still, after all these years, they refuse to allow users to invert the zoom on the mouse wheel......argh!  Note: This game has put me to sleep more than any other MMO I have ever played. The only way to actually enjoy Eve is to play with friends, otherwise you will not get the most for your mileage."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5104
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I'm too bad for this game but it's peak, everyone should play it at least once"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5107
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "-An Honest, unbiased or hyped review of No Man's Sky VR 1.07 (22 hrs PS4/11 hrs PC)   No Man's Sky is a niche game mass marketed with expectations much too large for what it really was. People were promised the moon, and delivered a boulder. This game should have been released as a $40 closed beta while they work out all of the problems and implement missing features. The game is not finished, this is true. But, the moding community has done some amazing things already and literally EVERY day a new mod or two is released for the game. There is a community building around this game, and their goal is to finish what was promised and improve what we already have. No Man's Sky is about the journey, not the destination. This game is much better on PC than PS4 due to the amazing mod community. I strongly believe that this game will only appeal to maybe 10%-12% of gamers out there but it was over promised and super hyped to the main stream (overpriced as well).   *CORE GAMEPLAY* The basic gameplay is following a red geometric orb called Atlas to the center of the galaxy. There isn't much more than that. You will meet 3 alien races and learn the language through discovery and monoliths which are scattered on most planets and moons. You will farm resources with a multi tool which is a mining laser/space gun. You find, repair or purchase new ships with increased cargo as you travel from star system to star system. You upgrade your bio suit and multi tool as well. Besides this you find factories that drop blueprints for better upgrades. You then travel to find those resources to upgrade your ship as you travel the galaxy. You then search for monoliths and upgrades. Rinse and repeat until you get bored then warp to the next system and begin the process again.  I recommend No Man's Sky if you relate to the following:  -You enjoy the journey more than the destination -You do not mind grinding resources for upgrades (similar to grinding for gear or crafting in MMORPGS) -You enjoy exploration and naming things, finding the small details -You enjoy a light story or the option to create your own path -You like farming resources to sell on markets as a space trader -You like Sci-Fi and Space games but you do not like the complexity of games like Star Citizen or Elite (This game is a single player arcade version of games like Elite: Dangerous but with better planetary landings) -You were unaware of the game before launch so you had zero expectations (This was my case, so the lack of promised features bothers me less than people who pre-ordered for those specific features. You guys got a bum deal) -You enjoy procedurally generated worlds that are different to most points but repetition does eventually present itself. Mods help expand the colors and verity and make this game much more enjoyable (you can alter almost any setting, size or amount in mods).  -You love mods or making mods. A HUGE moding community is present with No Man's Sky and the game keeps getting better and better (it is still missing many advertised features that moding alone will not be able to add -multiplayer-).   -I do not recommend No Man's Sky if you relate to the following: -You want a story rich game that is worthy of a AAA title (this has one of the lightest stories in a game I have encountered) -You enjoy fast paced gameplay and combat -You want multi player so you can play with or see other people -You dislike single player games (this is currently a single player game and I have no idea if multiplayer will ever be released) -You want difficult and rewarding achievements (this game gives you an achievement for everything you do, I am not kidding) -You like games like Call of Duty and not games like World of Warcraft or SimCity -You find the idea of grinding resources unbearable   [I recommend this game but not to everyone, here is why]  I am a graduate student that doesn’t have a ton of time to play games of learn new game mechanics. No Man’s Sky lets me play at my pace, doing what I want when I feel like it. It is Zen, going at my own pace in vastness of space. It isn’t complicated, only mildly frustrating at times. Within the first hour you will pretty much get the jest of the gameplay. If you do not enjoy the first hour then return the game to Steam (if you go over around 3 hours of gameplay you will NOT receive a refund and at $60 that can be better spent elsewhere). If you want choose your own adventure style Sci-Fi exploration with mild combat and space trading/flight sim this is your game. Again, this is a niche game that was unfortunately marketed to the masses when in reality maybe 1/10 of gamers would like this (if you find the game boring, multiplayer wouldn't fix that - you would just be bored with friends instead of alone). It was also overhyped and overpriced for what was eventually released. People who preordered have every right to be upset because they were not delivered what they were promised (to the extent that the word fraud could be used), and if it had been myself I would be right there with them demanding a refund. I like No Man’s Sky and the mods I use with it and hopefully I helped a few people make their mind up about whether or not this game is for them."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5124
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead  man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead  man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead  man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead  man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead  man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead  man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead   man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead   man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead   man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead  man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead      man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead man i'm dead"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5128
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Ive been bored out of my mind lately, no games seemed to really be fun anymore. Til I found this."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5129
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The game is fun unfortunately it really wants to hook into your Facebook account and share all the things your sim is doing. You also need a separate account to play and more recently you can only play the game through EA's Origin. I haven't touched the game since then because it's silly to have steam and then to have steam fire up Origin only then to be able to start up Sims 3.  The graphics are great. The gameplay is the same as it ever was."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5135
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Jeu de gigachad absolu."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.514
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Game: Velvet Sundown  Developer: Tribe Studios Release Date: 22nd July 2014  This Is A Small And Fun Little Free To Play Title. The Game Is About A Trying To Solve Three Different Murder Situations. Now This May Sound Fun Or Maybe Even Boring To Some Players But I Can Assure You It Is Definitely Not Boring.  Now The Main Reason I Personally Enjoy This Game Is Because Of The Players, Because This Game Has Text To Speech Alot Of Spam Is Said By Players Which At Times Can Be Funny, But Can Also Be Annoying If You Are Trying To Solve The Murder.  One Feature This Game Does Lack Is Content And This Is Because It Only Features 3 Stories Which Can Sometimes Be A Bore To Replay.  This Game You Will Find Enjoyable By Yourself Or With Friends.  If You Are A Younger Person I Reccomend Not Playing This Game Because You Will Encounter Very Strong Language And Sexual References And Also Alot Of Drugs And Racism Mostly All Said By Others Playing The Game.  Pros: A Fun Mystery Game Some Funny Moments Good Graphics Runs Fast On Most Computers  Cons: Text To Speech Is Sometimes Used As A 'Porno' Sim At Times Not Enough Mysteries Can Be Annoying Can Sometimes Get Boring  Rocky"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5168
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Took part in a lot of my mental scarring for some reason, very cool!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5171
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪help\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪purple guy\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪take\n🟪🟪🟪🟪⬛⬛⬜⬜🟪🟪🟪⬛⬛⬜⬜over\n🟪🟪🟪🟪⬛⬛⬜⬜🟪🟪🟪⬛⬛⬜⬜steam\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪or\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪else\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪he\n🟪🟪⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟪🟪🟪will\n🟪🟪⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🟪🟪🟪commit\n🟪🟪🟪🟪⬛⬛⬛⬛⬛⬛⬛🟪🟪🟪🟪mass\n🟪🟪🟪🟪⬛⬛⬛⬛⬛⬛⬛🟪🟪🟪🟪murder\n🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5175
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "This game is a very casual game, that doesn't require much 'think work' At first the whole clicking part is boring at times, because you aren't making that much of a progress. Later on, after a few ascensions, you start to discover patterns in terms of skilling and spending money and rubies. Then the game starts to get more interesting.\n\nEvertyhing does take a lot of time though. it takes ages to aquire frostleaf and even longer to aquire Dread Knight. After that you have to aquire Atlas, but that will take a lot of ascensions, a lot of skilled ancients and also a lot of mercenaries. When coming to a point where you finally can aquire Dread Knight, it takes to long to be able to buy atlas. This could be a point where most people stop playing this game.\n\nPROS\n- Addictive gameplay (after a few ascensions)\n- Cool but simple graphics\n- Casual gameplay which makes and keeps you calm\n- Steam achievements\n- nice build in RPG like elements (skilling, semi-questing,upgrades)\n\nCONS:\n- You NEED to spend money on rubies to get steam trading cards. bad move playsaurus!\n- At some point game gets to repetetive, because the gap of progress is to large. (dreadknight to atlas)\n- Takes much of your time. Will speed up over time, untill you need Atlas.\n- Upgrades via rubies are to expensive. At some point you dont get that much rubies anymore.\n\n\nOverall this could be a fun game, with a 'frustrating taste' to it unfortunately. If playsaurus would update this game to make progression a bit easier and faster it would be more fun. Steam trading cards should be free imho. The gap from Dread knight to Atlas should be made a lot smaller in order to keeping people interested to the game.\n\nRating: 6/10"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5176
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "güzel"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5177
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "booker catch"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5179
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "kappa\n"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5183
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "7/10\r\nfun but repetitive"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5185
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "First off, Autopsport driving style. Its has grown a lot sonce Grid 2, from drifting to f1 I am satisfied with the physics. Only problem I have with the game after playing 70+ hours is the AI. They cannot drive, brake late, seems like they hit you on purpose in the begining of a race sometimes which gets frustrating having to restart the race 30 times."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5206
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Pros: -One of the best OST I've ever heard -Nice storyline -Nice Characters -Enjoyable bullethell -Great Dialogues Cons: -Graphics (I don't mind it really, but I just ♥♥♥♥ING HATE HOW FRISK LOOKS LIKE, REALLY, WHEN I SEE HIS/HER FACE I'M JUST STARTING TO GET SICK [I'm not joking]) -Puzzles could be harder   Just buy this game for soundtrack, it's totally in my Top 5 Soundtracks."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5219
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It's ok I guess. I mean, it's not like I love it to death or anything. There's a few bits and pieces that are a bit complicated though. It's an average game.                                                                           JUST KIDDING"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5235
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "like the idea of the game but alot of rng and just to much to think about. not just a plug and play so unless your a hard core card type game player and can plan out every move. Dont waste you money."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.525
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "One of the best games in the rogue-like genre that I would recommend to anyone who likes Hades. The game is overall great. Whether it's the graphics, gameplay, or the variety of builds, it makes you addicted to the game. The only downside is that there are very few mutations to choose from and we can't increase the difficulty.\r\n\r\nI haven't played the DLCs yet, I'll buy them when they go on sale and check them out."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5267
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "özellikle çevrimiçi ve yerel birlikte oynamalık oyun olarak bir dünya markası"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5284
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "(Y)"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5291
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "(For Steam this is from a reddit post I made)\n\nI made a post before trying to get all technical with numbers and whatever that looking back at, i didn't have enough experience with to try and come off sounding smart. So instead I will just put plain and simple, things IMO that just threw me off.\n\nI do want to say that starting the game, I loved it. I have an addictive personality when i find something I really enjoy. I played this game for just about 24 hours straight at one point. Was that a good decision? No. Did I have a blast doing it? Yes. It remained my go to game for about 2 weeks, then I finally couldn't take all of the things that were bothering me and finally stopped.\nSo let's get started.\n\nPros:\n- You can build your own craft.\n- A LOT of customization in doing so. Type of movement, Type of gun, Tank or Squishy, Healers, Flyers (My personal favorite.) and it goes on.\n- Competitive.\n- Skill based. As any shooter is really. Except in this you don't just aim for the head. You find the weak points and go from there.\n- Crates. Nobody can resist crates nowadays. It's like the new generation of gambling.\n- Forging/ Crafting.\n\nThat to me is all just fluff though. Eye candy. This stuff alone could make any decent game. It's basically the set in stone formula for any modern game. I call them pros but I think what I mean is \"good on you for following the formula\"\n\nCons/ Things that irked me so bad it made me quit the game:\n\n- Bugs come first rather than game play and balance. I have not had one problem that was game-breaking. If the game runs fine leave it (focus more on another part) until it's not.\n- Unbalanced. Lock on Missiles, Tesla's, Shotguns, Chain Guns, Air Flaks, and Rail Cannons (Iffy). One could argue that map awareness, positioning, and skill in general could counter this but when you cant evade the rockets, have no time at all to react to a cloaked Tesla because you're instantly dead, and try and run from shotguns before you're blown to bits but they still do tons of damage at mid to long range, and air flaks are basically a one hitter for planes/ copters, their squishy and are easily enough immobilizable, what's the point other than realism, then none of that really matters.\n- Tiers of parts. With the exceptions if shields and movement parts. I wish multi tiered blocks were left in too. As much as having an upgraded version of anything in any aspect of life is, it is my feeling that they should stay out of arena based games ESPECIALLY shooters and skill shot based games. MMR would make more sense then.\n- Crafting and crates. Crafting should require materials that you either get from crates or get when you dismantle something. Crates should contain mostly blocks and before mentioned materials with a chance of an extra part or two.\nIf tiers does remain a thing, match people up against bots of the same caliber, not skill. If skill is gonna be any factor it should focus more on how a bot is built. Kinda like the classes of weight in UFC, boxing, and wrestling. Could be based on CPU Load.\n- Lack of modes and maps. I'm sure there are more to come, but what happened to the old stuff? It worked, it was fun. I heard that BOSS Mode was taken out because people/ someone thought it was too OP..... For real? Wasn't that the bloody point!? What happened to the chasm in the desert map? I had plenty of exciting 1v1's in that pit. IDK, the maps just seem so.... bland now. And why not use the maps you have now for team death matches too rather than that itty bitty thing. Probably be better for that than the current tower possession mode. Speaking of which, bring back the classic capture point. I don't want to focus on a tower while I have unbalanced weapons to worry about.\nAnd what was wrong with the little astronaut dude you used to build your bot around? At least then I'd have an Idea of when I was about to die or how to kill others rather than just firing away like a maniac.\nThe only weapon that had a skill was the Proto-Seeker against shields. why not give the other weapons bonuses against wheels, guns, legs, etc.\n- Rarity scaling? That's confusing. Higher tiered parts do seem to show up less often in crates, buuuuut with a little bit of grinding you can acquire those parts anyway which then turns from rarity scaling to what, power scaling? Price scaling? It seems here, someone they just wanted to hop on the crate craze but didn't really think it through.\n\n\nAll in all, I think the game has been ruined. It was a good thing before and all that needed to happen was some tweaks. The game has changed entirely, almost as if it's a knock-off of it's former self.\n\nHowever, I will still check in the future to see if they leartned their lesson."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5295
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The story and the locations are very original. The story has some fantastic characteristics that I am not much of a fan of. \nSome characters and locations made me remember of Gabriel Knight 1. The nerd assistant, the church, the crypt, the bike. \nThe graphics are ok and the music too. The voice acting its one of the best things of the game, specially Kathys actress. \nSome puzzles have a lot of potential to be great but they are not very intuitive. I found myself going from one location to another asking questions. It got really tiresome. \nIll play the sequel at some point, for what I saw in the trailer, they improve the graphics."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.531
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "10/10 Pure digital crack.\n\nRidiculously easy to pick up, but impossible to put down. You move a bit, chaos ensues, monsters/enemies everywhere, and suddenly it’s 1am you're 5 hours deep into the game and you’re saying just one more run for the 100th time.\n\nPlays great on desktop or the Steam Deck, consider your evenings, weekends, and productivity officially ruined.  A great game, so basic yet so good."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.534
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "sell"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5359
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "...."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5369
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Gud"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5376
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "family view is sht m8"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5376
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Dead Cells is a repetitive game that reminds me a lot of Hades.\r\n\r\nYou collect random items to try to go as far as possible. If you die, you start over. If you win, you unlock a new game difficulty.\r\n\r\nThe maps and bosses can be a bit repetitive, but it's the game mechanics that make this game truly unique:\r\n\r\n- Weapons\r\n- Modifiers\r\n- Abilities\r\n- Mutations\r\n- Game Difficulty\r\n- Game Modes\r\n- etc.\r\n\r\nThe randomness makes every game feel fresh, fun and different. Especially as you unlock more stuff.\r\n\r\nI found that it's tempting to go as fast as possible, but you end up missing power-ups and weapons, making it impossible to last in the long run.\r\n\r\nSlowly exploring everything is the way to go in my opinion."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5408
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Very engaging and fun until the last 10 or so achievements."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5408
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "qwerty"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5451
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I liked it while I was still on my \"first\" playthrough - unlocking new skills and areas, excited to see if the story went anywhere.  Was disappointed when I finished a run and there was no new info or plot resolution.  I imagine you can grind for something a bit more satisfying but I would've liked this game more if it weren't a roguelike."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5465
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "please, please find it in yourself look passed the awful ux and what you've no doubt heard about the fandom: this is, in my eyes, the most important videogame story ever."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5469
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "this game is peak... best steam game ive seen. one problem tho bc when i kill asgore like 82140940984098348 howevermany times flowey says \"...\" can someone tell me how to restart the files so flowey just doesnt know me"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5479
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "meta skeleton 👍"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5517
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Way too much RNG. You can go to  random.org  and try and guess the number. It's cheaper, faster, and you still don't get what you want 99% of the time."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5523
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "really good but cant sex sans"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5531
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.554
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.554
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.554
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "You already know"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5542
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "its gud\n"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5555
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I can only run the game at 30fps, game needs optimiation, NOW. 10/10"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5562
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Good game, though robits when dismantaling things could be more rewarding."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5563
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Its a fun 2d game where you kill bad guys but there is some mild gore and blood if youre a preteen or older i recommend it i get 120 fps on my 120 hz monitor so its not capped at 60 luckily"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5604
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Super duper fun, highly addictive in my opinion, would absolutely recommend to others"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5637
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "peak"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5637
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "great game over all  but fights could have been harder"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5663
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "good game which is a classic"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5669
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Two words: Nipple clicking"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5669
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "w"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5684
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Papyrus"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5699
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "karta zwina"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5707
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "DEAD CELLS is the most painful and frustating metroidvania/ roguelike i've ever played.\n\nThe good news is the true ending is not a myth"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5712
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The game is very fun and strategical, but they need to fix flying robots bc they are extremely weak."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5724
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Its a great game, but don't take breaks from it for too long or you will not be able to survive a single match"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5743
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "schoen"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5761
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The game is good but for a remake. I expected a little more, the secondary character animation would be nicer with a bit more FPS, the sound from zoombinis footstep are not there. Some sound aren't synced. The level with the hotel is set for a 4/3 resolution, the screen don't go all dark in a 16/9 resolution and the squirel girl disapear too soon. Still I will say it has the charm from the first one. A really good experience if you never played it, one of the best and hardest puzzle game."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5762
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "/"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5806
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "frogot to review this"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5819
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "despite everything, its still you."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5849
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Peak Bisexuality."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5857
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "My opinion is this game is a piece of ♥♥♥♥. Getting refund for, would not suggest ever buying. Horrible."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5858
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Its like Skyrim with gunns, in space, and rts"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5865
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It's nice to have in the background while you watch a movie, but there's not much to it and eventually you'll just forget about it."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5877
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It is very reminescant of Assassin's Creed 3 and Black Flag, and that I enjoy. The only thing that's keeping me from playing more is the difficulty of getting a lot of money easily. I do admit that this might just be me, but I still find it difficult."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5879
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "100% RNG Juice. 100% Rage Juice. The list goes one.  still hella fun with friends.  Better than Mario Party."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5886
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "THIS GAME IS GOOD BUT THEY NEED TO MAKE THE WEAPONS DO LESS DAMAGE THEY ARE TO OP"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5891
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Very fun online, especially with friends. Get three other friends to be on your ship, and you are almost unstoppable. The only sort of bad part is that sometimes if you are fixing something and the hull gets destroyed and you blow up, you will almost certainly get yelled at by some random gunner. Still a fun game though."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5974
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "so it turns out its not actually the games fault if im bad at building decks"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.5975
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Edit 1/7/2016  My review is outdated yes. My reccomendation is still a no though.  They did overhaul all that microtransaction BS sure.  The cynic in me however tells me what a good marketing technic they did.  I mean, they just happened to be producing another game, Dead by Daylight, when they decided that 'Guys, im not THAT bad, look i removed microtransactions! LOVE ME AGAIN KIDDIES (And buy our new game too while you're at it'.  I wouldnt trust this company either ways. If you still do, be prepared to get ♥♥♥♥ed.   Simply put, our guide, techie, overlord and  crime.net  controller is a ♥♥♥♥ that does not shut up.  Bain, I know that I have to drill the safe to get it's contents.  Bain, I know that if I should avoid getting detected by a guard or camera. Bain, I know that the escape van is here and I need to get in to leave.  But most importantly, Bain, I know that the ♥♥♥♥ing senator's apartment is nice. I'm trying to ♥♥♥♥ing sneak here. Could you please stop telling me that if I steal the gold I can buy one of my own?  Yeah, Bain is awesome. He likes blue after all.  What? What Payday crew? I only know Bain...   After growth, a boom will occur. After the boom, a recession.  Payday 2 was not as great as it once was when everything was simpler.  With the introductions of price slashes, hackers/griefers/trollers/generally non-cooperative people have joined the fray making this game pretty unenjoyable (Public MM anyway).  Top that off with a whole load of DLCs which i would say is getting more and more ridiculous. Previous DLCs were made with actual thought as to what sector or area of the game was lacking.   Newer ones are obviously just trying to milk us.   Sure some DLCs are actually worth it. The grenade pack for instance had made killing bulldozers a breeze whilst packs like the shotgun and sniper added variety into the game. The later ones however seems to be selling stuff that don't really add more new content into the game besides looking flashy.  They're just there to show the whole world i've invested more than you into payday, that i'm 'cooler' or something, which isn't technically wrong but does destroy the whole atmosphere of the game. I dont really care about the character packs but i AM particularly talking about some gun packs. Really? Did we need a flamethrower and gatling gun alongside with all the extremely useless melee weapons in a bank robbery?   On another note, could be just me since ive stopped playing awhile back but there are alot less free content available now.  Thats what ticked me off.  If i dont want to look flashy and just want to play normally, dont get the new DLCs. That i dont mind but are you seriously charging us for new game content now? Heists are what im focusing on here. A paid heist every now and then i dont mind, especially if they're really unique and well made. Armored transport gave you a chance at scoring a military blueprint that gave you access to a special Train heist. The Big Bank introduced preplanning (Which became a standard for other heists later i think?).  Though i didnt purchase it, i've read some reviews of the newer heists such as Alesso and The Diamond and they were generally not great (Read a bit after the heist itself was released). In my opinion, the last great free heist that was released was probably the Hoxton Breakout (Well they added Hoxton AND the fugitive set AND some other ♥♥♥♥ i cant remember). In case anyone is about the mention it, no, the car shop heist isnt great. Yes they introduced driving but that's not really THAT great especially since you just drive for like a minute. It WOULD be good if say Overkill studios made it that we now personally drive when escaping a loud heist.  Payday 2 has already reach such a famous stature that reviews like these dont even matter anymore since it's flooded with a bunch of '*insert nonsense here* 11/10 would *insert nonsense here*' reviews.   Fun fact: Newer DLCs are increasing in price for whatever reason (At least in my store, the old ones are cheaper than the new ones)  Mind you im not saying Payday 2 is a bad game. It's quite the contarary.    It's a great game, just not as great as it used to be.    TLDR: Quality of content (Both free and paid DLCs) are degrading Price slashes brought alot of generally 'less desireable' players along Less free content being developed, more paid content being developed"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.5991
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Still to this day, I have no idea how it ended up in my library or how I managed to get this many hours on it."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6008
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "  What is Next state DLC in New Mexico?  http://americantrucksimulator.pl/mapa/ "
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6047
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "speedball"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6048
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "l"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.607
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "need more  Want more\ng"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6079
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I'd give this game a 10/10 but the cross platform between xbox and pc doesnt work. all be it the games amazing except this one flaw"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6087
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "make robocraft great again bring tiers back it is fun but now not so much"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6087
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "tek jump is the only way to beat necromancer insane mode."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6088
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Path of Exile is a great game. Graphics are beautiful, controls are nice, and the skill tree. Oh don't get me on the skill tree. Path of Exile has the most ♥♥♥♥ed up skill tree in all of the rpgs. Enough of that, lets get on the game.  Diablo should have been this game, really. I was dissapointed because the story to this is magnifcent, yet Diablo III just has you go after a skeleton guy. 6 characters, all each having a story to tell, and each have their own set of skills.  This is F2P, and a Diablo Clone.           11/10"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6098
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "ye"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6106
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Robocraft is a good game because i like building and fighting the idea is good but it has too much bugs"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6107
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Gone home is not a traditionnal video game. There is a beginning and a end and have light puzzle, but calling it a Adventure game would be a bad way to describe it. It's a creepy thrilleresque story about a girl looking for her family in her house. You walk around, read stuff in a room and move to the next room.Once in a while you find a clue to open something locked and there is a couple of instance where you have to backtrack, but most of the game is reading everything in a room to learn more about what happened to the family while you were gone. It's more a non linear story than an adventure game.  For 20$, I think the price is too high, since we have stuff like Stanley Parable or even Amnesia : The Dark Descent for a lower price, but if you can get it for 5-10$, it's a good deal.  The game is only a 2-3 hours long, but those hours are interesting and different than what you usually play."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6116
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I think that this is a great game but sometimes it kicks me from the server for no reason and then gives me a penalty!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6119
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "GUN LEAN MAN"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.614
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Get good. I'll probably never get there, but I sure will die trying."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6204
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "What an awesome roguelite-ccg-type-game!! I skipped it for ages because I thought it would suck.\r\n\r\nTHAT WAS  A MISTAKE!!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6204
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I can't see anything, but man is the thrill thrilling."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6219
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Eurydice appeals my penis."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6223
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "A delightfully dark survival game with an element of steampunk wackiness that really completes the product. Very excited for 'Don't Starve Together'   I would strongly recommend to anyone with a twisted sense of fun, and beware Charlie.... when the last light flickers off, it's waiting for you. :)"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6238
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "pros:\nfun and caotic gameplay, even if losing\nno one is going to rage quit in this game, like, nobody.\nawesome robot design system\n\ncons:\nreduculous grinding to get the goods stuff\n-wouldn't be a problem if you couldnt buy crates to get goods stuff\nmatchmaking does a poor job of balancing teams. (you can go up against a guy with a gatling gun, while your team only           has lazers)\nstupid loading screens while doing literally anything\nitems in crates locked off unless you buy premium\nitems that require more than one to be of any use are given in crates one at a time\n\nthere may be more cons than pros but the pros outwieght the cons. and most of the cons cant be fixed because the devs need money, so whatever. this game is fun, give it a shot.\n"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6264
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The best game in the world at one time. But now, it's time to admit that other, newer games have taken its spot. There's little reason to play the original CS other than for historical curiosity."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6276
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Pros: - Much fun.\n- Clicking is fun.\n- Very satisfying.\n\nCons : Can't masturbate now. Very single."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6285
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The king of roguelikes."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6318
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "For $5 just buy it."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6329
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The puzzles didn't leave much of an impression on me but the story, atmosphere, and general feeling of doing detective work were all very good. played with the voice volume at 0"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6333
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Jogo inicial de qualquer usuário de xbox 360 agora no pc"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6344
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Badass game"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6348
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "тигры прокачены"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6377
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "one of the greatess tower defense game out there. just wish we could have more control over heroes and leveling them up in different ways hint hint"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6421
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "just bought on pc to give undyne the keyboard whooping bc i couldn't do so on controller"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6423
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Payday 2 is mission-based, first-person shooter, and I think it does its job very well. The game is very replayable, so it has great longevity. I've seen posts from people saying they've got 200+ hours on it.  There are plenty of weapons, ways to play, skills, 100 levels - 0-50 took me 30 or more hours, without being rushed and mostly going solo. You can of course collect, spend, and steal plenty of cash.  The game is ocasionally updated with new content. There are community items, and DLC, featuring new guns (seemingly not overpowered) and even the recently added grenades.  Finding a game is easy, as there are heaps of people on it, at least on UK time. I come across a lot of Germans, British, and American players.  A typical level, let's say, Four Stores - a favorite among many - will start off with you in casing mode, where you basically walk around, all innocently. Depending on what you're wearing, you'll be either unnoticed, or an unmistakable criminal. Once you've cased as much as you desire, you press and hold G (on the keyboard) to wear your mask, and equip your previously hidden weapon; at this point, you are dedicated to the mask, and you cannot take it off. With your mask and gear all set, you seek to control the crowd, by yelling stuff like 'Get down!', then tie them up, to get hostages.  At first you get to tie up two hostages, but with an upgrade, a single person can later tie up to 6 people. You can even take the police, FBI, or other none-special enemies, hostage, by forcing them to cuff themselves. The more hostages you have, the longer it takes before the law really clamps down on you.  Usually, there are big and small safes, tills, ATMs, cash lying around, or briefcases, all likely to hold cash. A safe can hold a huge wad of cash, in the form of an exceptionally large cash-pile, gold bar(s), jewelry, and possibly more. Once you've looted enough to either meet the criteria for the job, or your greed, you can bail in the escape van, if it has arrived.  There is stealth in the game, very much so, but it's not always easy to do, and usually seems to require some hefty team-work, but it's a lot of fun, if you can be bothered to do it.  I find the controls tight and responsive, on both M&amp;K and the XBOX 360 wired controller.  The performance is perfect. On my previous GPU, the GTX 560Ti Twin Frozr II OC, with max at 1080p and v-sync enabled @ 60Hz, I did notice a bit of a frame-rate dip, in one or two random areas, and I never did figure out why; on my ASUS 760 OC, I have yet to see a single performance drop. The game is not that demanding on either CPU or GPU. I still game on a now-fairly-old AMD 4100 OC @ 4.2GHz, and still get amazing performance on most if not all games.  Weapons can be upgraded, in the form of mods, such as replacing the stock, barrel, clip, and more. You collect mods (and cash, EXP, masks, etc) from random cards that every player gets at the end of a job.  You always take two weapons with you, those of which can be switched around to your heart's content, when not directly in-game.  The community is brilliant, with a lot of helpful, friendly, and skilled players. Unfortunately, there are brainless muppets, but I suppose that is to be expected on any online game. It's not too common for me to run into problems with people, on Payday 2. If anything, sometimes someone will do something that screws everything up for the team, but they are usually new players, in which case, sometimes it's fair play.  I should note that there seems to be zero story to Payday 2, and I must admit, for me, it becomes completely redundant, once you get into the game, realising it's just one of those games that doesn't need a story!  All in all, I think Payday 2 is a huge amount of fun, very addictive, great online, and an absolute must-buy for those interested.  UPDATE:  After 80+ hours of gameplay, I have edited some of the above text, but most of it remains the same as before. I still love Payday 2, and I still recommend it!  How can I improve this review? Tell me in the comments. Constructive crtitisism, folks."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6429
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "10/10 GOTY 2014 Pros: -Shoot dead people. -Blow up dead people. -Dead people.  Cons: -Its eSports. -Die from dead people. -Dead people.  Needs workshop support."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6456
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "ambatukham"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6461
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "click click"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6462
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Un juegazo y un vicio. Sus armas demonícacas evolucionadas son chulísimas"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6469
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It was such a fun point and click game however my dumbss played this version instead of DC so Im going to have to play the newer version as well to see if there is a better ending and if the story makes more sense? Kathy is such a gem! The puzzles are quite easy and the humor is immaculate."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6477
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "1. Get Friendzoned  2. at least we hook up with Emma if being a ♥♥♥♥"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6479
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Go play the Director's Cut version. :)"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6506
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Likely to be polarising in more ways than one, Ikaruga is a milestone shooter well worth a peak for anyone interested in arcade shooters.  While I wouldn't recommend it as an entry point into the genre, due to it's complexity of gameplay and teeth-gnashing difficulty, it is a game I think everyone should at least take a punt at if they like games. Games period. Not just arcade games or shooters.  This is a really unique, artistically powerful and surreal experience to look at and play, and ranks up there easily with your Zeldas, your Final Fantasies and your ICOs in terms of impactful Japanese videogame art.  It also represents, if not the first, one of the first fully functional, recognisable polarity switching bullet systems in shooters. Personally I feel that the system does render the game marmite-style, in that it adds an extra layer of stuff to think about in a genre where you've normally got 240 different 'things to think about' coming at you at breakneck speed and that'll straight up drive some people insane, but back at it's original release, this game pioneered that mechanic.  Fundamentally, I think this game has been surpassed historically now, certainly in terms of fun and playability. This is a game designed to be gradually learned, not picked up and played, and the developer Treasure are notorious for difficulty and awkward complexities within simple genres (beaten Alien Soldier or Gunstar Future Heroes? No? Me neither...), and Ikaruga is no different. To me, you can feel that this game is nearly 15 or so years old not in it's look which is still remarkably fresh and unique, but in the feel of the gameplay. Newer shooters are faster, more responsive and universally easier to actually play well.  Ikaruga will punish you mercilessly for getting things wrong. Pick the wrong polarity at any given moment and you will die instantly, respawning in the wrong colour straight into the same bullet curtain that just killed you. Press the swap polarity button a fraction of a second too late and you'll be torn to shreds during the agonisingly 'just. too. slow.' polarity swap animation.  It also won't let you record any kind of highscore, local or global, unless you play with only 3 lives and no continues. Download the demo and you'll see how utterly cruel a yardstick that is.  Fundamentally, if you're looking for any kind of easy ride, or a soft entry point into the genre, buy something else.  This is a game that entices you in with stunning artwork, amazing sound and a genuinely atmospheric world, and then tackles you to the floor and beats the living daylights out of you. It demands respect, and it is sometimes the complete polar opposite of fun to play because of it's insanely steep learning curve.  Because of that, I really recommend firmly downloading the demo and playing it over and over until you're sure you enjoy the game. At it's core, this is a mean, vicious, downright insane game that will troll you at every turn, BUT, it is, much like all the best difficult games, very rewarding when you do start to get the hang of it.  And dear god, it's gorgeous. Absolutely stunning.  "
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6509
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "this game is a Drug"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.652
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "'Think you'll get your own squad after what happened last night?' 'Indeed, I believe so.'  Dishonored is a first-person stealth-action game set in the grim, steampunky city of Dunwall. What might initially look like an awfully generic story of treason, intrigue and revenge turns out to be a still not outstandingly special, but well put together story in a dystopian steampunk world in whose dark corners hide otherworldly things that remain mysterious throughout the game.  Let's start off with the narrative and the setting. The game sure takes itself seriously, and it does a good job at it. Yet I found the story to be a little too simplistic and fast-paced at times (especially in the beginning), but I guess that's totally understandable given the relatively short length of the game. To really be able to enjoy this world and all the narrative behind it, you will need to read the various books containing excerpts of fictional works, letters or diaries, which are altogether really compelling. It's obvious that the writers put a lot of work into constructing a new steampunk world from zero, and their product is well-worth the effort to enjoy. Unfortunately, I wasn't always patient enough to read everything I found since I wanted to progress in the game, but I guess that's just me shying at walls of text. The setting in general is extremely immersive and captivating, mainly due its art style, which I will be talking about later on.  Graphics, sound design, art style etc.: The game's graphics are somewhat of an odd case due its unique art style which does not aim to achieve maximum realism, but rather very intentionally chooses to be kind of caricatural, which, surprisingly, works really well. I very much enjoyed that. As a result of this however, it makes everything look kinda watery and uber-smoothed, and the textures aren't particularly good in certain places. I can easily forgive Arkane though, since I like the resulting art style a lot. Sounds are amazing, the music is incredibly atmospheric and suitably adapted to the given situation, the mysterical whispering when using magic is strangely comforting and yet scary, the voice acting is very solid overall too, especially for the main characters.   Mechanics/character customization: Now this is probably the weakest part of the game, but it's still not a shortcoming big enough to claim it would be a genuine detriment to the game's overall factor of enjoyment. While all the magic stuff is exclusively awesomely done (what would I do without the Blink power..?), the weapon variety, or lack thereof is kind of disappointing, especially for people who choose to go the 'High Chaos' way, as in muh explosions and assassinate everyone. I did quite the contrary and chose the stealthy 'Low Chaos' path, killing only a minimal amount of people, and going the, granted more tedious but also more interesting imo, non-lethal way for all the objective characters. I mean come on, it's much more fun exposing the crimes of a regent with questionable legitimacy over the loudspeakers on every street in the city using a tape of him talking dirty things than just walk into his office and slice his throat open, right? Naturally, you can choose which powers you'd like to invest in after collecting your runes which are needed for upgrades. The available powers equally favour a stealthy or alternatively a straightforward approach. The level design is reasonably open and leaves the player just the right amount of space to explore. Thanks to the 'Blink' power, the streets of Dunwall with its high English-Victorian-esque looking buildings can be extensively explored not only horizontally, but also vertically. Very cool.  Performance: Without a doubt a ten outta ten here. Runs on 120fps all the time with no frame drops on my CFX 7950/7970. Loading times are practically non-existent which is somewhat surprising given the rather open nature of the levels. Controls are tight, intuitive and responsive, nothing to complain there.  If you're into the fairly unique art style and stealth-action games in general, you should play this. It's pretty good, honest. Play the DLCs too, they're fantastic and really add to your further understanding of the story since much remains unanswered after the main campaign.   Oh and read my review too.  'How old did you say your sister was?' 'Blow off, choffer.'"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6537
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Really good i just hate that i have to beat the game before i get pacifist. I spent 7 hours doing this and spent 4 afterwards beating the game"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6544
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "   https://youtu.be/m__enEPnklc   The game is a very simple farm sim. That doesn't mean its bad and in fact it is quite good for passing time. For that main reason I am going to give it a thumbs up. I always worry when buying a compilation that most of the games will take 15 minutes to tire out. This is not one of those games for me. Is there much in the way of skill? No, but thats also not the point of the game.  The game does have some oddities. The first thing I do not like is the walking movements. Pathing is not very good and you can't change direction mid movement. The day also passes faster than I would like. I also had a not so fun bug in which when I got a reward from a neighbor, the screen would not close. No matter what. The only way to fix this was to start a new game.  Otherwise I would give it a 5/10 which for me is a small thumbs up."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6549
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "games= is straight peak nothing else to say"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.656
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "peak game"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6563
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I put as much effort into this review as the developers put into this game. None."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6567
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "One of the few games I play every blue moon and beat multiple times in one sitting."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6581
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Fun. No D.E.I. except for one chick but you can skip her."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6584
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It's definitely not everyone's cup of tea, but it's a great time waster."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.659
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "It's a great and complex RPG, the only problem would be the lack of balance in the pvp, but it's great for playing PvM."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6593
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "When a game is held to such a high standard, it usually has a hard time living up to that hype.\nUndertale lives up to the hype + more."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6595
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I like the potential this game promises more than the actual game. I've had decks that were fun, and I really like the deckbuilding aspect, but I find the combat more tedious than enjoyable and this game is mostly combat with a tiny bit of deckbuilding. I revisited this with all the hype for StS2 to see if my attitudes have changed, but they have not: installed and uninstalled within the hour."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6613
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Hahaa, if you've played this game... you should. This game is a wonderful RPG combined with a living economy. I've always been a fan of games that allow you to do trade and create your own adventure. This is what you get from Mount &amp; Blade. Be warned, this is not a fast paced arcade game. This is a game of patience."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6677
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "ts peak\r\n"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6695
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Addictive"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6697
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Addictive"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6697
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Fun game, but can push you to your limits"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6699
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Genre defining game with an addicting gameplay loop. Simple but fun bullet hell gameplay lays the groundwork but this game is much more about item builds and combinations. There’s a constant stream of unlock-ables which the sound effects and visuals do a great job of highlighting to give these constant dopamine hits. The majority of my time playing this game was coop which played really well and added to my enjoyment of it. We hit a point as soon as we completed the final mainline stage where we had thought we knew the best builds and had almost all the unlock-ables so the runs were getting a bit repetitive. This seemed like a natural stopping point so we did and haven’t gone back. Which leads me to my main critique that for a game like this with no story, I wish it was a little more replay-able or a little more satisfying to complete the stages. Because of the way the unlock-ables work completing stages feels more like a bi-product of playing the game more than being smart with your builds. Overall a very fun game, I understand why all the clones are made."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6736
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "not much of a review, most of the other reviewers have said everything i want to say. But anyways, this game is amazing, and you will want to keep playing it all the time. Just remember to have a stress ball with you because after getting killed 20 times in a row (not an exaggeration for beginners) you might try to rage quit."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.674
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "BIG HAMMER NEURON ACTIVATE"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6754
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I would rather play garry's mod. ( ͡° ͜ʖ ͡°)"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6761
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Lost in the alleys of Lahoreh I melt into the azure blue air Faceless in the milling foray While sliders slide with awesome flair Canal water reflects my face Amid old stones long worn by time Seeking a reflection on the bridge of lace I catch a whiff of oghar and lime I follow my steps to Jahangir The garden of haunted lovers The scent of flowers soothes my melanghir With tales of jousts and plumed plovers    - dav idka'j poetry"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6771
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "its like minecraft with guns!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6778
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "I just finished playing Soothsayer, so I decided to go replay the original. It is a really good game with a wonderful dark atmosphere. I love the mystery and the dark feel. Puzzles were pretty good, but I could not figure out the voice change puzzle for the life of me. Both this time and the first.\r\n\r\nGood game if you like point and click adventures with mystery to them."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6804
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Break the game and your mind as you become mentally impaired by the visual chaos that unfolds on your screen. A truly pleasurable experience."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.684
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Great little mystery/puzzle game with a streak of darkness. Right up my alley!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6846
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "pet dawg"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6846
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "If you're currently going through depression I would not recommend this game. However, if you've battled it - and are in a good place - you should be able to get through it, though it could trigger a moment or memory that might upset you. I really enjoyed Actual Sunlight, the struggles Evan goes through are real every day struggles that people can relate to.  - Down below is a bit of a spoiler. I think. -  One thing that I'm glad was included in this game was the out-of-control anger scene. I think that people who haven't experienced depression may only think that depression is about feeling sad, hopeless, and having suicidal thoughts. The commercials never say anything about the anger that happens. How it literally takes over your mind and you sometimes can not control the things you say or do when it grabs a hold. The regret afterwards is always heartbreaking."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6852
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "to me this is the perfect mix of utter derpiness and proper seriousness for players wanting to make some sort of campaign or mission it is a modders delight with many mods and many mor coming each day you just dont know whats coming next it could be a cute kitten or a grumpy looking chell from portal thats what i love about gmod"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6859
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "great game i just suck at it !! and RNG HATES ME  in every game i play "
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.687
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Pretty fun game, my dad thinks its dumb though, Buuuuuuut i can't really say that i blame him"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6874
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "another 360 classic of course"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6876
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "super fun so fun infact that u will want to kill yourself"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6879
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Dusa is my Waifu"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6888
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Pretty average, expected more."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6896
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Peak"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6901
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Finally got this game on PC after years of playing it on my phone.\r\nPeak game, good cards though after playing a little bit of the sequel with my brother in law I have realized how stiff the lack of animations make the characters and fights look. Your telling me in the entire year of early access they didn't think to add even a simple attack animation to the characters until the sequel.\r\nOh well, games still peak."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6901
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Frank West. He's covered wars you know."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6913
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "My first card game turns out to be an first of card deck builder rouglike. So far never beaten a run still enjoying it though."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6932
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "hi"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6937
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Definitely a fun game, but it can be tough at first to make a craft work well. Takes a lot of practice to build good vehicles of each type.\n"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6946
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Although you repeat the same loop but slightly different each time, the new boons and upgrades are different and there are different combos to try."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6982
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "great boredom killer \nrate over 9 thousand!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6986
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Halp, I can't stop playing!"
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "negative"
+              ]
+            }
+          }
+        ],
+        "score": 0.6988
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The point and click is very retro game and it fits in with the storyline taking place in 1995."
+    },
+    "predictions": [
+      {
+        "model_version": "bart-large-mnli-zero-shot",
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "choices",
+            "value": {
+              "choices": [
+                "positive"
+              ]
+            }
+          }
+        ],
+        "score": 0.6988
+      }
+    ]
+  }
+]

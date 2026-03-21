@@ -1,14 +1,13 @@
 sources:
   - type: hf_dataset
-    name: imdb
+    name: ksang/steamreviews
     split: train
-    sample_size: 1000
+    sample_size: 500
 
-  - type: scrape
-    url: "https://quotes.toscrape.com/"
-    selector: "div.quote span.text"
-    label: "quote"
-    source_name: "scrape_quotes"
+  - type: steam_reviews
+    tag: Indie
+    top_n: 5
+    reviews_per_game: 100
 
 output:
   path: data/raw/dataset.csv

@@ -492,6 +492,13 @@ def main(tag: str = 'Horror', top_n: int = 5, reviews_per_game: int = 100, hf_sa
     report = quality_agent.detect_issues(df_raw)
     print(f"  Missing: {report['missing']['total']}, Duplicates: {report['duplicates']['total']}")
 
+    # LLM-бонус: рекомендация стратегии чистки от YandexGPT
+    llm_quality_rec = quality_agent.llm_recommend(
+        report,
+        task_description='Binary sentiment classification of Steam indie game reviews (positive/negative).'
+    )
+    print(f"  LLM recommendation: {llm_quality_rec[:200]}...")
+
     strategy = {'missing': 'drop', 'duplicates': 'drop', 'outliers': 'clip_iqr'}
     df_clean = quality_agent.fix(df_raw, strategy=strategy)
     comparison = quality_agent.compare(df_raw, df_clean)
@@ -500,6 +507,7 @@ def main(tag: str = 'Horror', top_n: int = 5, reviews_per_game: int = 100, hf_sa
     with open(out('reports/quality_report.md'), 'w') as f:
         f.write(f'# Data Quality Report\n\nBefore: {n_collected}\nAfter: {n_cleaned}\n\n')
         f.write(comparison.to_markdown(index=False))
+        f.write(f'\n\n## LLM-рекомендация (YandexGPT)\n\n{llm_quality_rec}\n')
     df_clean.to_csv(out('data/raw/dataset_clean.csv'), index=False)
     print(f"  {n_collected} → {n_cleaned} rows")
 

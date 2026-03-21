@@ -1,0 +1,22 @@
+model: logreg
+tfidf:
+  max_features: 5000
+  ngram_range: [1, 2]
+
+active_learning:
+  initial_size: 50
+  batch_size: 20
+  n_iterations: 5
+  strategies:
+    - entropy
+    - margin
+    - random
+
+paths:
+  raw: data/raw/dataset.csv
+  labeled: data/splits/labeled.csv
+  pool: data/splits/pool.csv
+  test: data/splits/test.csv
+  results: data/results/
+  plots: plots/
+  report: reports/al_report.md

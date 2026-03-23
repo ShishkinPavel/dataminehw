@@ -14,8 +14,6 @@ venv
 # OS
 .DS_Store
 
-# Jupyter
-.ipynb_checkpoints/
 
 # Models (large binary)
 *.joblib

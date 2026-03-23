@@ -44,6 +44,7 @@ class DataCollectionAgent:
         dfs: list[pd.DataFrame] = []
         skill_map = {
             'hf_dataset': self._load_dataset,
+            'hf_api': self._fetch_hf_api,
             'scrape': self._scrape,
             'api': self._fetch_api,
             'steam_reviews': self._fetch_steam_reviews,
@@ -192,6 +193,129 @@ class DataCollectionAgent:
         df['collected_at'] = datetime.now(timezone.utc)
 
         return df[self.REQUIRED_COLUMNS] if 'text' in df.columns else pd.DataFrame(columns=self.REQUIRED_COLUMNS)
+
+    def _fetch_hf_api(
+        self,
+        dataset: str,
+        config: str = 'default',
+        split: str = 'train',
+        sample_size: int = 1000,
+        label_map: dict[int, str] | None = None,
+        **kwargs: Any,
+    ) -> pd.DataFrame:
+        """Fetch dataset via HuggingFace Datasets REST API.
+
+        Args:
+            dataset: HF dataset name (e.g. 'cornell-movie-review-data/rotten_tomatoes').
+            config: Dataset configuration name.
+            split: Dataset split.
+            sample_size: Number of rows to fetch.
+            label_map: Mapping from int labels to strings (e.g. {0: 'negative', 1: 'positive'}).
+
+        Returns:
+            DataFrame with text, label, source, collected_at.
+        """
+        logger.info("Fetching HF API: %s (split=%s, n=%d)", dataset, split, sample_size)
+        all_rows: list[dict[str, Any]] = []
+        batch = 100
+        for offset in range(0, sample_size, batch):
+            length = min(batch, sample_size - offset)
+            try:
+                resp = requests.get(
+                    'https://datasets-server.huggingface.co/rows',
+                    params={
+                        'dataset': dataset,
+                        'config': config,
+                        'split': split,
+                        'offset': offset,
+                        'length': length,
+                    },
+                    timeout=30,
+                )
+                resp.raise_for_status()
+                data = resp.json()
+            except (requests.RequestException, ValueError):
+                logger.warning("Failed to fetch HF API at offset %d", offset)
+                break
+
+            for item in data.get('rows', []):
+                all_rows.append(item.get('row', {}))
+
+            if len(data.get('rows', [])) < length:
+                break
+
+        if not all_rows:
+            return pd.DataFrame(columns=self.REQUIRED_COLUMNS)
+
+        df = pd.DataFrame(all_rows)
+
+        if 'text' not in df.columns:
+            for col in ('review', 'sentence', 'content'):
+                if col in df.columns:
+                    df = df.rename(columns={col: 'text'})
+                    break
+
+        if label_map and 'label' in df.columns:
+            df['label'] = df['label'].map(label_map)
+        elif 'label' in df.columns:
+            df['label'] = df['label'].apply(
+                lambda x: 'positive' if x == 1 else 'negative'
+            )
+
+        df['source'] = f'api_{dataset.split("/")[-1]}'
+        df['collected_at'] = datetime.now(timezone.utc)
+        return df[self.REQUIRED_COLUMNS]
+
+    # ── Public skill API (per HW1 contract) ────────────────────
+
+    def scrape(self, url: str, selector: str, **kwargs: Any) -> pd.DataFrame:
+        """Scrape data from a web page (public skill).
+
+        Args:
+            url: URL to scrape.
+            selector: CSS selector for text extraction.
+
+        Returns:
+            DataFrame with columns: text, label, source, collected_at.
+        """
+        return self._scrape(url=url, selector=selector, **kwargs)
+
+    def fetch_api(self, endpoint: str, params: dict[str, Any] | None = None, **kwargs: Any) -> pd.DataFrame:
+        """Fetch data from a REST API (public skill).
+
+        Args:
+            endpoint: API endpoint URL.
+            params: Query parameters.
+
+        Returns:
+            DataFrame with columns: text, label, source, collected_at.
+        """
+        return self._fetch_api(endpoint=endpoint, params=params, **kwargs)
+
+    def load_dataset(self, name: str, source: str = 'hf', **kwargs: Any) -> pd.DataFrame:
+        """Load an open dataset (public skill).
+
+        Args:
+            name: Dataset name (e.g. 'imdb', 'ksang/steamreviews').
+            source: Source platform ('hf' or 'kaggle'). Only 'hf' is implemented.
+
+        Returns:
+            DataFrame with columns: text, label, source, collected_at.
+        """
+        if source != 'hf':
+            raise NotImplementedError(f"Source '{source}' not supported, use 'hf'")
+        return self._load_dataset(name=name, **kwargs)
+
+    def merge(self, sources: list[pd.DataFrame]) -> pd.DataFrame:
+        """Merge DataFrames from multiple sources into a unified schema (public skill).
+
+        Args:
+            sources: List of DataFrames to merge.
+
+        Returns:
+            Unified DataFrame with guaranteed schema.
+        """
+        return self._merge(sources)
 
     @staticmethod
     def get_games_by_tag(tag: str, top_n: int = 10) -> list[dict[str, Any]]:

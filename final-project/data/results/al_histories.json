@@ -1,0 +1,239 @@
+{
+  "entropy": [
+    {
+      "iteration": 0,
+      "n_labeled": 50,
+      "accuracy": 0.66,
+      "f1": 0.661,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 1,
+      "n_labeled": 70,
+      "accuracy": 0.7,
+      "f1": 0.7021,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 2,
+      "n_labeled": 90,
+      "accuracy": 0.7092,
+      "f1": 0.7112,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 3,
+      "n_labeled": 110,
+      "accuracy": 0.7117,
+      "f1": 0.7135,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 4,
+      "n_labeled": 130,
+      "accuracy": 0.7333,
+      "f1": 0.7346,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 5,
+      "n_labeled": 150,
+      "accuracy": 0.74,
+      "f1": 0.7418,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 6,
+      "n_labeled": 170,
+      "accuracy": 0.7425,
+      "f1": 0.7441,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 7,
+      "n_labeled": 190,
+      "accuracy": 0.7583,
+      "f1": 0.7595,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 8,
+      "n_labeled": 210,
+      "accuracy": 0.7633,
+      "f1": 0.7639,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 9,
+      "n_labeled": 230,
+      "accuracy": 0.7733,
+      "f1": 0.774,
+      "strategy": "entropy"
+    },
+    {
+      "iteration": 10,
+      "n_labeled": 250,
+      "accuracy": 0.7617,
+      "f1": 0.763,
+      "strategy": "entropy"
+    }
+  ],
+  "random": [
+    {
+      "iteration": 0,
+      "n_labeled": 50,
+      "accuracy": 0.66,
+      "f1": 0.661,
+      "strategy": "random"
+    },
+    {
+      "iteration": 1,
+      "n_labeled": 70,
+      "accuracy": 0.655,
+      "f1": 0.6509,
+      "strategy": "random"
+    },
+    {
+      "iteration": 2,
+      "n_labeled": 90,
+      "accuracy": 0.6408,
+      "f1": 0.6347,
+      "strategy": "random"
+    },
+    {
+      "iteration": 3,
+      "n_labeled": 110,
+      "accuracy": 0.6592,
+      "f1": 0.6575,
+      "strategy": "random"
+    },
+    {
+      "iteration": 4,
+      "n_labeled": 130,
+      "accuracy": 0.6517,
+      "f1": 0.6445,
+      "strategy": "random"
+    },
+    {
+      "iteration": 5,
+      "n_labeled": 150,
+      "accuracy": 0.6725,
+      "f1": 0.6698,
+      "strategy": "random"
+    },
+    {
+      "iteration": 6,
+      "n_labeled": 170,
+      "accuracy": 0.6692,
+      "f1": 0.6674,
+      "strategy": "random"
+    },
+    {
+      "iteration": 7,
+      "n_labeled": 190,
+      "accuracy": 0.6792,
+      "f1": 0.6789,
+      "strategy": "random"
+    },
+    {
+      "iteration": 8,
+      "n_labeled": 210,
+      "accuracy": 0.7125,
+      "f1": 0.7138,
+      "strategy": "random"
+    },
+    {
+      "iteration": 9,
+      "n_labeled": 230,
+      "accuracy": 0.7,
+      "f1": 0.7005,
+      "strategy": "random"
+    },
+    {
+      "iteration": 10,
+      "n_labeled": 250,
+      "accuracy": 0.6992,
+      "f1": 0.6998,
+      "strategy": "random"
+    }
+  ],
+  "least_confidence": [
+    {
+      "iteration": 0,
+      "n_labeled": 50,
+      "accuracy": 0.66,
+      "f1": 0.661,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 1,
+      "n_labeled": 70,
+      "accuracy": 0.7,
+      "f1": 0.7021,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 2,
+      "n_labeled": 90,
+      "accuracy": 0.7092,
+      "f1": 0.7112,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 3,
+      "n_labeled": 110,
+      "accuracy": 0.7117,
+      "f1": 0.7135,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 4,
+      "n_labeled": 130,
+      "accuracy": 0.7333,
+      "f1": 0.7346,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 5,
+      "n_labeled": 150,
+      "accuracy": 0.74,
+      "f1": 0.7418,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 6,
+      "n_labeled": 170,
+      "accuracy": 0.7425,
+      "f1": 0.7441,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 7,
+      "n_labeled": 190,
+      "accuracy": 0.7583,
+      "f1": 0.7595,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 8,
+      "n_labeled": 210,
+      "accuracy": 0.7633,
+      "f1": 0.7639,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 9,
+      "n_labeled": 230,
+      "accuracy": 0.7733,
+      "f1": 0.774,
+      "strategy": "least_confidence"
+    },
+    {
+      "iteration": 10,
+      "n_labeled": 250,
+      "accuracy": 0.7617,
+      "f1": 0.763,
+      "strategy": "least_confidence"
+    }
+  ]
+}
